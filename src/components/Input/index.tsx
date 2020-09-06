@@ -3,8 +3,6 @@ import { IconBaseProps } from 'react-icons';
 import { Container, Error } from './styles';
 import { useField } from '@unform/core';
 import { FiAlertCircle } from 'react-icons/fi';
-import Tooltip from '../Tooltip/index';
-
 
 interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
   name: string;
