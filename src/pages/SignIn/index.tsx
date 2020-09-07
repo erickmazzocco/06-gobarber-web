@@ -5,11 +5,11 @@ import { FiLogIn, FiMail, FiLock } from 'react-icons/fi';
 import Input from '../../components/Input';
 import Button from '../../components/Button';
 import { Form } from '@unform/web';
-import { FormHandles } from '@unform/core';
 import * as Yup from 'yup';
 import getValidationErrors from '../../utils/getValidationErros';
 import { useAuth } from '../../hooks/auth';
 import { useToast } from '../../hooks/toast';
+import { FormHandles } from '@unform/core';
 
 interface SignInFormData {
   email: string;
